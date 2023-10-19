@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <div>
+      <div
+        class="flex justify-center gap-7"
+      >
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -21,10 +23,17 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        {/* <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1> */}
+        <br />
+          <h1 class="
+           text-3xl font-bold decoration-1 overline mt-10 mb-10
+           md:text-6xl md:font-bold md:underline
+           lg:text-9xl lg:font-black lg:overline
+          ">
+            Demo
+          </h1>
 
+        <br />
+        
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
