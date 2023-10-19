@@ -29,9 +29,9 @@ function App() {
            md:text-6xl md:font-bold md:underline
            lg:text-9xl lg:font-black lg:overline
           ">
-            Demo
+            In Progress
           </h1>
-
+          <p>Working on backend</p>
         <br />
         
         <p>
