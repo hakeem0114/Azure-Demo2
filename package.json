@@ -11,6 +11,8 @@
     "build:css": "tailwindcss build src/index.css -o src/tailwind.css"
   },
   "dependencies": {
+    "@azure/data-tables": "^13.2.2",
+    "@azure/functions": "^4.0.1",
     "@azure/msal-browser": "^3.2.0",
     "@azure/msal-react": "^2.0.4",
     "msal": "^1.4.18",
